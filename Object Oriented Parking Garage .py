@@ -7,7 +7,8 @@ class ParkingGarage():
             'paid' : False,
             'ticket number': '',
             'spot' : ''
-        }
+            }
+        self.payment = ''
 
     def takeTicket(self):
         if self.tickets and self.parkingSpaces:
